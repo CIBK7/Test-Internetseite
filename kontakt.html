@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Testprojekt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Testprojekt</a>
+      <nav>
+        <a href="index.html">Start</a>
+        <a href="ueber.html">Über</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Kontakt</h1>
+    <p>
+      Schreib einfach eine E-Mail — das Formular unten ist bislang nur die Oberfläche
+      und verschickt noch nichts.
+    </p>
+
+    <p><a class="button" href="mailto:gehrke@ibk-technik.de">E-Mail schreiben</a></p>
+
+    <form class="form" onsubmit="return false;">
+      <label>
+        Name
+        <input type="text" name="name" autocomplete="name">
+      </label>
+      <label>
+        E-Mail
+        <input type="email" name="email" autocomplete="email">
+      </label>
+      <label>
+        Nachricht
+        <textarea name="nachricht" rows="5"></textarea>
+      </label>
+      <button type="submit">Absenden</button>
+      <p class="note">
+        Hinweis: GitHub Pages liefert nur fertige Dateien aus und kann selbst keine
+        Formulare entgegennehmen. Dafür bräuchte es später einen externen Dienst.
+      </p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Testprojekt</p>
+    </div>
+  </footer>
+
+</body>
+</html>
